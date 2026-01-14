@@ -1,5 +1,23 @@
 *This project has been created as part of the 42 curriculum by <msobral-@student.42lisboa.com>.*
 
+<h1 align="center">🧩 push_swap</h1>
+
+<p align="center">
+  A high-performance sorting engine using two stacks and a minimal instruction set.
+</p>
+
+<p align="center">
+  <a href="#-demo">Demo</a> •
+  <a href="#-algorithm">Algorithm</a> •
+  <a href="#-benchmark">Benchmark</a> •
+  <a href="#-installation">Install</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/miguelsobralcurado/push_swap?style=flat-square" />
+  <img src="https://img.shields.io/github/repo-size/miguelsobralcurado/push_swap?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/miguelsobralcurado/push_swap?style=flat-square" />
+</p>
 # 🧩 push_swap
 
 A sorting algorithm visualized through stack operations.
@@ -33,24 +51,7 @@ Clone the repository and run:
 ```bash
 make
 
-<h1 align="center">push_swap</h1>
 
-<p align="center">
-  A high-performance sorting engine using two stacks and a minimal instruction set.
-</p>
-
-<p align="center">
-  <a href="#-demo">Demo</a> •
-  <a href="#-algorithm">Algorithm</a> •
-  <a href="#-benchmark">Benchmark</a> •
-  <a href="#-installation">Install</a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/languages/top/YOURNAME/push_swap?style=flat-square" />
-  <img src="https://img.shields.io/github/repo-size/YOURNAME/push_swap?style=flat-square" />
-  <img src="https://img.shields.io/github/last-commit/YOURNAME/push_swap?style=flat-square" />
-</p>
 
 ## 🚀 Overview
 
