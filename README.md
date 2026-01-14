@@ -201,11 +201,11 @@ ARG=$(shuf -i 1-1000 -n 100); ./push_swap $ARG | ./checker $ARG
 ### 🌈 Visualizer
 Check this amazing [visualizer](https://github.com/o-reo/push_swap_visualizer) by [Emmanuel Ruaud](https://github.com/o-reo)
 
-100 numbers sort
-/img/100_sort.gif
+100 numbers sort\
+![100_sort](/img/100_sort.gif)
 
-500 numbers sort
-/img/500_sort.gif
+500 numbers sort\
+![500_sort](/img/500_sort.gif)
 
 ## 📁 Project Structure
 
