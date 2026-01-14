@@ -1,5 +1,6 @@
 *This project has been created as part of the 42 curriculum by <msobral-@student.42lisboa.com>.*
 
+
 <h1 align="center">🧩 push_swap</h1>
 
 <p align="center">
@@ -14,9 +15,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/miguelsobralcurado/push_swap?style=flat-square" />
-  <img src="https://img.shields.io/github/repo-size/miguelsobralcurado/push_swap?style=flat-square" />
-  <img src="https://img.shields.io/github/last-commit/miguelsobralcurado/push_swap?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/top/miguelsobralcurado/push_swap?style=for-the-badge" />
+  <img src="https://img.shields.io/github/repo-size/miguelsobralcurado/push_swap?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/miguelsobralcurado/push_swap?style=for-the-badge" />
 </p>
 # 🧩 push_swap
 
