@@ -6,7 +6,7 @@
 /*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 10:42:24 by msobral-          #+#    #+#             */
-/*   Updated: 2026/01/14 11:13:28 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/26 16:17:39 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,16 +74,16 @@ int	main(int argc, char **argv)
 
 	b = NULL;
 	a = ft_process(argc, argv);
-	if (!a || ft_dup_check(a))
-	{
+	if (!a)
 		ft_stkfree(&a);
-		ft_checker_error();
-	}
+	else if (ft_dup_check(a))
+		return (ft_stkfree(&a), ft_checker_error(), 1);
 	line = get_next_line(0);
-	if (!line && !ft_sorted_check(a))
-		write(1, "KO\n", 3);
-	else if (!line && ft_sorted_check(a))
-		write(1, "OK\n", 3);
+	if (!line)
+		if (!ft_sorted_check(a))
+			write(1, "KO\n", 3);
+		else
+			write(1, "OK\n", 3);
 	else
 		ft_checker_helper(&a, &b, line);
 	ft_stkfree(&b);

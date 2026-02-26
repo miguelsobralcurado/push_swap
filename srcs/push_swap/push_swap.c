@@ -6,7 +6,7 @@
 /*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/04 14:00:09 by msobral-          #+#    #+#             */
-/*   Updated: 2026/02/23 11:21:47 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/26 15:33:19 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	main(int argc, char **argv)
 	t_stack	*a;
 
 	a = ft_process(argc, argv);
-	if (!a || ft_dup_check(a))
+	if (ft_dup_check(a))
 	{
 		ft_stkfree(&a);
 		ft_error();
