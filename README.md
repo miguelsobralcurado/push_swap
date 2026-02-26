@@ -137,7 +137,7 @@ Word count the number of steps or use the subject checker
 ```
 Random tests:
 ```bash
-ARG=$(shuf -i 1-1000 -n 100); ./push_swap $ARG | ./checker_linux $ARG
+ARG=$(shuf -i 1-1000 -n 100 | tr '\n' ' '); ./push_swap $ARG | ./checker_linux $ARG
 ```
 ## 🧪 Example
 
@@ -163,7 +163,7 @@ The algorithm adapts dynamically based on input distribution to minimize total o
 
 ## ⚠️ Error Handling
 
-The program must output "Error\n" to standard error in case of:
+The program must output "Error" to standard error in case of:
 - Non-integer arguments
 - Integers exceeding allowable int size
 - Duplicates
