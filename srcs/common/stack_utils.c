@@ -6,7 +6,7 @@
 /*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 10:14:13 by msobral-          #+#    #+#             */
-/*   Updated: 2026/01/06 15:46:02 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:20:38 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ t_stack	*ft_stknew(int content)
 	return (new);
 }
 
-t_stack *ft_stklast(t_stack *lst)
+t_stack	*ft_stklast(t_stack *lst)
 {
 	if (!lst)
 		return (NULL);

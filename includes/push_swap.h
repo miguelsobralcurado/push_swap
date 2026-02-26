@@ -6,7 +6,7 @@
 /*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/15 16:20:13 by msobral-          #+#    #+#             */
-/*   Updated: 2026/01/14 11:12:55 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:02:31 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ int		ft_rotate_type_ba(t_stack *a, t_stack *b);
 int		ft_rotate_type_ab(t_stack *a, t_stack *b);
 
 t_stack	*ft_stknew(int content);
-t_stack *ft_stklast(t_stack *lst);
+t_stack	*ft_stklast(t_stack *lst);
 int		ft_stksize(t_stack *lst);
 void	ft_stkadd_back(t_stack **stk, t_stack *new);
 void	ft_stkfree(t_stack **lst);

@@ -6,7 +6,7 @@
 /*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/18 19:54:58 by msobral-          #+#    #+#             */
-/*   Updated: 2025/12/18 20:06:51 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:13:40 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,10 @@
 
 int	ft_atoi_base(const char *str, int str_base)
 {
-	int	i, sign, result;
-	char base[] = "0123456789abcdef";
+	int			i;
+	int			sign;
+	int			result;
+	const char	*base = "0123456789abcdef";
 
 	i = 0;
 	sign = 1;

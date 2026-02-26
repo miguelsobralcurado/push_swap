@@ -6,7 +6,7 @@
 /*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/15 16:18:25 by msobral-          #+#    #+#             */
-/*   Updated: 2026/01/06 11:29:47 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:19:10 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	ft_case_rrarrb(t_stack *a, t_stack *b, int n)
 
 int	ft_case_rrarrb_a(t_stack *a, t_stack *b, int n)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (ft_find_place_a(a, n))
@@ -55,4 +55,3 @@ int	ft_case_rrarrb_a(t_stack *a, t_stack *b, int n)
 		i = ft_stksize(b) - ft_find_index(b, n);
 	return (i);
 }
-

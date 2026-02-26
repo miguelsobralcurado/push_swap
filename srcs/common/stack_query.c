@@ -6,7 +6,7 @@
 /*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/12 15:57:58 by msobral-          #+#    #+#             */
-/*   Updated: 2026/01/06 15:15:16 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:19:44 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_dup_check(t_stack *a)
 {
-	t_stack *tmp;
+	t_stack	*tmp;
 
 	while (a)
 	{
@@ -34,7 +34,6 @@ int	ft_sorted_check(t_stack *stk)
 {
 	if (!stk)
 		return (1);
-
 	while (stk->next)
 	{
 		if (stk->nbr > stk->next->nbr)

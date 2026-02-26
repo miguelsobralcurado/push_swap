@@ -193,7 +193,7 @@ Combine with the `push_swap` on any of the following
 ./push_swap "3 2 5 1 4" | ./checker "3 2 5 1 4"
 ARG="3 2 5 1 4"; ./push_swap $ARG | ./checker $ARG
 
-ARG=$(shuf -i 1-1000 -n 100); ./push_swap $ARG | ./checker $ARG
+ARG=$(shuf -i 1-1000 -n 100 | tr '\n' ' '); ./push_swap $ARG | ./checker $ARG
 
 ```
 

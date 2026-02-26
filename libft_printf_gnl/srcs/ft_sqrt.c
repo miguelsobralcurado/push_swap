@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: msobral- <msobral-@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/17 11:10:58 by msobral-          #+#    #+#             */
-/*   Updated: 2025/12/17 11:24:36 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:18:11 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-double ft_sqrt(double x)
+double	ft_sqrt(double x)
 {
 	double	result;
 	double	prev;

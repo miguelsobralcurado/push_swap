@@ -6,12 +6,12 @@
 /*   By: msobral- <msobral-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/31 15:10:14 by msobral-          #+#    #+#             */
-/*   Updated: 2026/01/14 10:54:20 by msobral-         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:27:36 by msobral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef libft_printf_H
-# define libft_printf_H
+#ifndef LIBFT_PRINTF_H
+# define LIBFT_PRINTF_H
 
 # include <stdarg.h>
 # include <unistd.h>
@@ -94,7 +94,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
-int		ft_strnchr(char *s, char c, int n);
+int		ft_strnchr(const char *s, char c, int n);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 
@@ -159,6 +159,5 @@ void	clear_buffer(char *buffer);
 size_t	gnl_strlen(const char *s);
 int		gnl_strchr(char *s, int c);
 char	*gnl_strjoin(char *s1, char *s2);
-
 
 #endif
